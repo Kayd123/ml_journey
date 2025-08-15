@@ -11,3 +11,14 @@ class Rectangle:
 rectangle = Rectangle(120, 100)
 print(rectangle.area())
 print(rectangle.perimeter())
+
+class Cuboid:
+    def __init__(self, length, width, height):
+        self.length = length
+        self.width = width
+        self.height = height
+
+    def volume(self):
+        return self.length * self.width * self.height
+v1 = Cuboid(100, 100, 20)
+print(v1.volume())
