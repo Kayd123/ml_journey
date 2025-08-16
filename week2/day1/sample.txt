@@ -1,0 +1,196 @@
+
+WikipediaThe Free Encyclopedia
+
+
+
+Windows Notepad
+
+Article
+Talk
+
+Tools
+From Wikipedia, the free encyclopedia
+"Notepad (software)" redirects here. For other text editors, see Notepad (disambiguation).
+Windows Notepad
+
+
+Notepad on Windows 11
+Original author(s)	Richard Brodie
+Developer(s)	Microsoft
+Initial release	1983; 42 years ago
+(as Multi-Tool Notepad)
+Stable release(s) [±]
+Windows 11	June 2025 Update (11.2506.35.0) / 11 August 2025; 5 days ago[1]
+Windows 10	10.0 (Build 19045.6159) / 22 July 2025; 25 days ago[2]
+Operating system	Microsoft Windows
+Platform	IA-32, x86-64, and ARM (historically Itanium, DEC Alpha, MIPS, and PowerPC)
+Predecessor	MS-DOS Editor
+Type	Text editor
+License	Freeware
+Website	apps.microsoft.com/detail/9msmlrh6lzf3
+Windows Notepad is a simple text editor for Windows; it creates and edits plain text documents. It was first released in 1983 to commercialize the computer mouse in MS-DOS.
+
+History
+In May 1983, at the COMDEX computer expo in Atlanta, Microsoft introduced the Multi-Tool Notepad, a mouse-based text editor Richard Brodie had created as a stripped down version of Multi-Tool Word. Notepad had the ability to bold, underline or italicise text removed. All these programs were to support the release of the $195 Microsoft Mouse, with the mouse coming with Notepad or Word, sometimes both, depending on the date.[3][4][5] Most visitors had never heard of a computer mouse before.[6] The mouse began shipping in July.[7] Initial sales were modest because it had no use other than running the programs included in the box (a tutorial, a Doodle drawing app, a musical piano app, Multi-Tool Notepad and/or Multi-tool Word.)[8]
+
+The Multi-Tool product line began with expert systems for the Multiplan spreadsheet.[9][10] On the suggestion of Rowland Hanson, Microsoft dropped the Multi-Tool brand name. Hanson's rationale was that "the brand is the hero" and people wouldn't automatically associate "Multi-Tool" with Microsoft. As a result, the Multi-Tool Notepad and the Multi-Tool Word became Windows Notepad and Microsoft Word, respectively. (Hanson also convinced Bill Gates to rename "Interface Manager" to "Windows" before the release of Windows 1.0.)[6][8]
+
+Since then, Notepad has been part of Microsoft Windows.
+
+Change in development model
+Since the introduction of Microsoft Store in 2012, Microsoft has converted some of the built-in Windows apps into Microsoft Store apps (e.g., Sticky Notes), so that they could be updated independent of Windows releases. Within three years, Notepad has appeared on Microsoft Store thrice. The first time was in August 2019; it vanished shortly thereafter.[11] This version required Windows 10 preview build 18963.[12] During this short-lived presence on the Store, technology news blogs speculated that Microsoft intended to de-couple Notepad's life-cycle from that of Windows 10 and update it more frequently through Microsoft Store.[12][13] Notepad appeared on Microsoft Store for a second time in April 2020, this time, sporting a new logo. It runs on the preview versions of Windows 10, build number 19541 or later.[11][14]
+
+On 16 February 2022, Microsoft started rolling out a new and redesigned version of Notepad to all Windows 11 users. This version had Dark Mode added and a new Find and Replace flyout with the same functionality. Notepad is now available in the Microsoft Store in both Windows 10 and 11.
+
+On March 21, 2024, Microsoft announced that it is adding spellcheck and autocorrect to Notepad for Windows 11.[15][16]
+
+On November 6, 2024, Microsoft announced that rewriting tools powered by LLMs will be added to Notepad.[17] Users will be able to rewrite selected text, adjust its length and modify its tone and format, similar to Grammarly's AI writing features.
+
+The new features are available to Windows Insider members in the Canary and Dev Channels and will be available to all Windows 11 users at a later time.
+
+Features
+Notepad is a text editor, i.e., an app specialized in editing plain text. It can edit text files (bearing the ".txt" filename extension) and compatible formats, such as batch files, INI files, and log files.
+
+Notepad offers only the most basic text manipulation functions, such as finding and replacing text. Until Windows ME, there were almost no keyboard shortcuts and no line-counting feature. Starting with Windows 2000, shortcuts for common commands like "New", "Open", and "Save" were added, as well as a status bar with a line counter (available only when word-wrap is disabled). Before Windows 10 version 1809, Notepad could not properly interpret either Unix-style or Mac-style newline characters.[18] Windows 10 version 1809 also introduced the Ctrl+← Backspace keyboard shortcut (deletes the previous word), zoom functionality, the ability to zoom in and out, and the "Search with Bing" function.[19][20]
+
+Improving performance has been the main focus of Notepad's development. As part of this effort, Notepad is capable of reading text files even when other apps have acquired a range-based lock on the file.[21]
+
+On Windows 95 and earlier, Notepad renders text files in the Fixedsys font. Starting with Windows NT 4.0 and Windows 98, it allows users to choose their own font to display the text. They cannot, however, select individual parts of the text and change their fonts.[22][23] Its default font changed to Lucida Console on Windows 2000, and Consolas on Windows 8.
+
+Notepad can print files. It allows customizing headers, footers, and margins before printing. The date, file name, and other information can be placed in the headers and footers with various codes consisting of an ampersand ('&') followed by a letter.[24]
+
+Notepad accepts text from the Windows clipboard, but only in the CF_TEXT format.[25] It strips the pasted text of any embedded font and style information. One could temporarily paste formatted text into Notepad, then immediately copy it again to obtain the raw text.
+
+Notepad has a simple logging function. Each time it opens a file with ".LOG" on its first line, the app inserts a timestamp on the file's last line.[26][27]
+
+Simple Markdown support was added in 2025.[28]
+
+Encoding support
+Notepad supports the following character encodings:
+
+"ANSI" (the locale-dependent codepage)
+Unicode, encoded as:
+UCS-2 (Windows NT 3.5 to 2000)
+UTF-16 (Windows 2000 or later), both little- and big-endian
+UTF-8 (Windows 2000 or later)
+Before Windows 10, Notepad always inserted a byte order mark character at the start of the file. Since Windows 10, the BOM has been optional.
+Starting with Windows 10 1809 Insider build, it supports Unix-style (LF) and Classic Mac OS -style (CR) line endings, along with the native DOS/Windows CRLF style. Before this, only CRLF line endings were recognized.[29]
+
+Opening and editing in left-to-right and right-to-left based languages are done via RichEdit controls and input method editors, available in versions for Windows XP or later.
+
+Limitations
+Notepad used a built-in window class named EDIT. The maximum file size Notepad can open depends on operating system limitations on the size of the EDIT window class, with a different limit in each version of Windows. Because of this limitation, on Windows 3.0, Windows 3.1, and Windows 3.11, Notepad could not open files larger than 54 KB. (Microsoft recommended using another text editor for opening files larger than 45 KB.)[30] This limit was extended to 64 KB in Windows 95, with users now directed to WordPad for larger files. On Windows XP, Notepad was limited to 32 MB and declined to open bigger files.[31] On Windows 11, Notepad uses the RichEdit control.[32] The size limit was raised to about 1 GB, and attempting to open any file larger than that shows a dialog box suggesting that the user open it with a different text editor.[33]
+
+Unicode detection
+Main article: Bush hid the facts
+On the Windows NT family of operating systems (including Windows 2000 and Windows XP), Notepad can detect Unicode files even when they lack a byte order mark. To do this, it calls the IsTextUnicode() function of the Windows API.[34] Until Windows Vista, this function was imperfect, incorrectly identifying some all-lowercase ASCII text as UTF-16. As a result, Notepad interpreted a file containing a phrase like "aaaa aaa aaa aaaaa" ("4-3-3-5") as a two-byte-encoded Unicode text file. If a font with support for Chinese was installed, nine Chinese characters (桴獩愠灰挠湡戠敲歡) would display. Otherwise, it would display square substitute characters instead of Chinese characters. This issue was resolved on Windows Vista and newer.[35][36]
+
+Competing software
+Further information: Comparison of text editors and List of text editors
+Notepad lacks many basic features available in other text editors, such as block selection and MDI. There are many third-party replacements for Notepad with additional functionality, such as AkelPad, Metapad, Notepad++, Notepad2, and TED Notepad, which include features such as, but not limited to:
+
+undo history
+syntax coloring
+code folding
+regular expressions
+macros
+manual code page selection
+themes
+sorting
+case changes
+external change detection
+matching braces
+visible line-endings and visible line-wrap indication
+line numbering, splitting and joining
+automatic indentation
+mass-editing of lines
+blank line removal
+hard alignment (using whitespace characters)
+whitespace stripping
+running in portable mode
+See also
+MS-DOS Editor, Notepad's predecessor
+XML Notepad
+References
+ "Windows Notepad". Microsoft Apps. Retrieved 2025-08-11.
+ "KB5062649 (OS Build 19045.6159)". Microsoft Support. Retrieved 2025-08-11.
+ "COMDEX: Micros in American mainstream". InfoWorld. IDG. May 23, 1983. p. 1. ISSN 0199-6649.
+ "Mouse and new WP program join Microsoft product lineup". InfoWorld. IDG. May 30, 1983. p. 10. ISSN 0199-6649.
+ "Microsoft ad". InfoWorld. IDG. May 23, 1983. p. 85. ISSN 0199-6649.
+ Wallace, James; Erickson, Jim (1992). Hard Drive. Wiley. pp. 238–244. ISBN 0-471-56886-4. Retrieved 2017-01-28.
+ "In Focus". InfoWorld. IDG. August 29, 1983. p. 31. ISSN 0199-6649.
+ Manes, Stephen; et al. (Paul Andrews) (1993). Gates. Doubleday. ISBN 0-385-42075-7. Archived from the original on 2017-02-02. Retrieved 2017-01-28.
+ "Microsoft ad". InfoWorld. IDG. April 25, 1983. p. 40. ISSN 0199-6649.
+ "In designers' ⁷scenario, software undergoes behavior modification". InfoWorld. IDG. August 29, 1983. p. 34. ISSN 0199-6649.
+ Wyciślik-Wilson, Sofia (2020-04-19). "Windows Notepad returns to the Microsoft Store with new features". BetaNews. Retrieved 2021-02-09. This is not the first time the app has appeared in the Microsoft Store. Originally announced in August last year, Notepad appeared for a while before vanishing.
+ Foley, Mary Jo (August 17, 2019). "Microsoft makes Notepad a separate Store app starting with new Windows 10 20H1 test build". ZDNet.
+ Parmar, Mayank (August 19, 2019). "Windows 10 Notepad Added to Microsoft Store, Only for Insiders". Bleeping Computer. Retrieved August 29, 2019.
+ Popa, Bogdan (16 March 2020). "This Is the New Notepad Icon for Windows 10". Softpedia. Retrieved 2021-02-09.
+ Warren, Tom (March 21, 2024). "Notepad in Windows 11 is finally getting a spellcheck feature". The Verge. Retrieved March 24, 2024.
+ Abrams, Lawrence (March 21, 2024). "Windows 11 Notepad finally gets spellcheck and autocorrect". Bleeping Computer. Retrieved March 24, 2024.
+ Roth, Emma (November 6, 2024). "Even Microsoft Notepad is getting AI text editing now". The Verge. Retrieved February 17, 2025.
+ "Introducing extended line endings support in Notepad". Windows Command Line Blog. Microsoft. May 8, 2018. Archived from the original on 2018-05-09. Retrieved 2018-05-09.
+ Huculak, Mauro (5 October 2018). "Check out all the changes in Notepad in the October 2018 Update". Windows Central.
+ "New features in Notepad in Windows 10". The Windows Club. 9 October 2018.
+ Chen, Raymond (21 May 2018). "Maintaining Notepad is not a full-time job, but it's not an empty job either". The Old New Thing. Microsoft. Retrieved 21 June 2021. To load a file, Notepad maps a view of the file as a memory-mapped file and uses that as the source. The code figures out the encoding, performs a code page conversion to UTF-16LE if necessary, puts the result in a memory block, and then uses the EM_SETHANDLE message to hand that entire block to the edit control.
+ Wyatt, Allen L. (1996). Windows NT Workstation 4.0 Bible. IDG Books. p. 239. ISBN 0-7645-8011-6. Retrieved 2022-03-08.
+ Russel, Charlie; Crawford, Sharon (1998). Upgrading to Windows 98. Sybex. p. 304. ISBN 0-7821-2190-X. Retrieved 2022-03-08.
+ Gralla, Preston (2005). Windows XP Power Hound: Teach Yourself New Tricks. Pogue Press. pp. 94–95. ISBN 0-596-00619-5. Retrieved 2022-03-08.
+ ""The Clipboard". Archived from the original on 2009-02-26. Retrieved September 29, 2009.
+ "Features of LOG and Time/Date Command in Notepad". Support. Microsoft. July 19, 2005. Archived from the original on June 28, 2007.
+ "How to Use Notepad to Create a Log File". Support. Microsoft. December 20, 2004. Archived from the original on April 6, 2005.
+ Endicott, Sean (3 July 2025). "You can now make text bold or italic in Notepad — hell has frozen over". Windows Central.
+ "Introducing extended line endings support in Notepad". Microsoft. 2018-05-08. Archived from the original on 2023-03-30.
+ "Maximum File Size Limits for Notepad". Support. Microsoft. September 24, 2011. Archived from the original on 2015-03-17. Retrieved 2016-10-28.
+ "What is file size limit for Notepad in Windows XP". Bytes. October 24, 2007. Archived from the original on 2016-10-29. Retrieved 2016-10-28.
+ "Windows 11 Notepad". Math in Office. 2022-02-23. Retrieved 2022-03-30.
+ Rusen, Ciprian Adrian (2022). Windows 11 All-in-One For Dummies. Wiley. p. 557. ISBN 978-1-119-85870-6. Retrieved 2022-03-08.
+ "IsTextUnicode()". MSDN. Microsoft. Archived from the original on 2016-09-10. Retrieved January 28, 2017.
+ Chen, Raymond (April 17, 2007). "The Notepad file encoding problem, redux". The Old New Thing. Microsoft. Archived from the original on 2011-09-03. Retrieved 2019-03-20.
+ Kaplan, Michael S. (March 25, 2008). "Bush might've still hid the facts, but he can't hide them from Vista SP1/Server 2008 Notepad". Retrieved 13 April 2017.
+External links
+Official website
+Notepad FAQ in Windows Vista documentation at Microsoft.com – Archived October 13, 2009, at the Wayback Machine
+vte
+Microsoft Windows components
+APIsArchitecture 9xNTBooting processGames
+Management
+tools
+App InstallerCommand PromptControl PanelDevice ManagerDirectX Diagnostic ToolDisk CleanupDrive OptimizerDriver VerifierEvent ViewerIExpressManagement ConsoleNetshPerformance MonitorPowerShellRecovery ConsoleResource MonitorSettingsSysprepSystem ConfigurationSystem File CheckerSystem InformationSystem Policy EditorSystem RestoreTask ManagerWindows Error ReportingWindows InkWindows InstallerWindows Update Windows InsiderWinREWMI
+Apps
+3D ViewerCalculatorCalendarCameraCharacter MapCity Art SearchClipchampClockCompany PortalCopilotEdgeFax and ScanFeedback HubGet HelpMagnifierMailMedia Player 2022MeshMessagingMobility CenterMoneyMovies & TVNarratorNewsNotepadOneDriveOneNotePaintPC ManagerPeoplePhone LinkPhotosQuick AssistRemote Desktop ConnectionSnipping ToolSpeech RecognitionSticky NotesStoreTerminalTipsTo DoVoice RecorderWeatherWhiteboardWindows AppXbox
+Shell
+Action CenterAeroAutoPlayAutoRunClearTypeExplorerSearch IFilterIndexing ServiceNamespaceSaved searchSpecial folderStart menuTask ViewTaskbarWindows SpotlightWindows XP visual styles
+Services
+BITSCLFSError ReportingMultimedia Class SchedulerService Control ManagerShadow CopyTask SchedulerWireless Zero Configuration
+File systems
+CDFSDFSexFATFATIFSNTFS EFSHard linklinksMount PointReparse pointTxFReFSUDF
+Server
+Active DirectoryActive DRM ServicesDFS ReplicationDistributed Transaction CoordinatorDNSDomainsFolder redirectionGroup PolicyHyper-VIISMSMQNetwork Access ProtectionPrint Services for UNIXPWSRemote Desktop ServicesRemote Differential CompressionRemote Installation ServicesRoaming user profilesServer CoreSharePointSystem Resource ManagerWindows Deployment ServicesWindows Media ServicesWSUS
+Architecture
+Boot ManagerConsoleCSRSSDesktop Window ManagerEnhanced Write FilterGraphics Device InterfaceHardware Abstraction LayerI/O request packetImaging FormatKernel Transaction ManagerLibrary filesLogical Disk ManagerLSASSMinWinNTLDRNtoskrnl.exeObject ManagerOpen XML Paper SpecificationPortable Executable DLLEXERegistryResource ProtectionSecurity Account ManagerServer Message BlockShadow CopySMSSSystem Idle ProcessUSERWHEAWinlogonWinUSB
+Security
+Security and MaintenanceAppLockerBitLockerCredential GuardData Execution PreventionDefenderFamily featuresKernel Patch ProtectionMandatory Integrity ControlProtected Media PathUser Account ControlUser Interface Privilege IsolationWindows Firewall
+Compatibility
+COMMAND.COMWindows Subsystem for LinuxWoW64
+API
+Active Scripting JScriptVBScriptWSHCOM ActiveXActiveX DocumentCOM Structured storageDCOMOLEOLE AutomationTransaction ServerDirectXNative.NETUniversal Windows PlatformWinAPIWindows Mixed RealityWindows RuntimeWinUSB
+Games
+Solitaire CollectionSurf
+Discontinued
+Games
+3D PinballChess TitansFreeCellHeartsHold 'EmInkBallPurble PlaceSolitaireSpider SolitaireTinker
+Apps
+ActiveMovieAddress BookAnytime UpgradeBackup and RestoreCardfileCardSpaceCD PlayerChatContactsCortanaDesktop GadgetsDiagnosticsDriveSpaceDVD MakerEasy TransferEdge LegacyFaxFood & DrinkGroove MusicHealth & FitnessHelp and Support CenterHyperTerminalImagingInternet ExplorerJournalMake CompatibleMapsMedia CenterMeeting SpaceMessagingMessengerMobile Device CenterMovie MakerMSN Dial-UpNetMeetingNTBackupOutlook ExpressPaint 3DPayPhone CompanionPhoto GalleryPhoto ViewerProgram ManagerSkypeSportsStartSteps RecorderSyskeyTravelWinHelpWordPadWrite
+Others
+Desktop Cleanup WizardFile ProtectionGames for WindowsHPFSInterixMedia Control InterfaceMS-DOS 7Next-Generation Secure Computing BasePOSIX subsystemScanDiskVideo for WindowsVirtual DOS machineWindows on WindowsWindows Services for UNIXWindows SideShowWindows System Assessment ToolWindows To GoWinFS
+Spun off to
+Microsoft Store
+DVD PlayerFile ManagerHover!MahjongMinesweeper
+ Category List
+Categories: Windows componentsWindows text editors1983 softwareMicrosoft softwareProprietary software
+This page was last edited on 16 August 2025, at 06:00 (UTC).
+Text is available under the Creative Commons Attribution-ShareAlike 4.0 License; additional terms may apply. By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+Privacy policyAbout WikipediaDisclaimersContact WikipediaCode of ConductDevelopersStatisticsCookie statementMobile view
+Wikimedia Foundation
+Powered by MediaWiki

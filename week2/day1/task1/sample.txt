@@ -1,0 +1,20 @@
+Character Frequency Counter
+
+Goal: Practice dictionary usage by analyzing character frequencies instead of words.
+
+Instructions:
+
+Write a Python script char_frequency.py.
+
+The script should:
+
+Read a text file (e.g., sample.txt).
+
+Convert the text to lowercase.
+
+Ignore spaces and punctuation.
+
+Count how many times each character (a–z) appears.
+
+Print the top 10 most frequent characters.
+
