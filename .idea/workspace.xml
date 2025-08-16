@@ -5,13 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce53d1cf-12c0-474f-9c31-08c5d7c2f16a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/ml_journey.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hello_ml.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/project/data/data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/project/grade_tracker.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/project/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/project/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day1/basics.py" beforeDir="false" afterPath="$PROJECT_DIR$/week1/day1/basics.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day1/exercise.py" beforeDir="false" afterPath="$PROJECT_DIR$/week1/day1/exercise.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day1/hello_ml.py" beforeDir="false" afterPath="$PROJECT_DIR$/week1/day1/hello_ml.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day2/loops&amp;conditions.py" beforeDir="false" afterPath="$PROJECT_DIR$/week1/day2/loops&amp;conditions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day2/task1.py" beforeDir="false" afterPath="$PROJECT_DIR$/week1/day2/task1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day2/task2.py" beforeDir="false" afterPath="$PROJECT_DIR$/week1/day2/task2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day3/classes&amp;OOPbasics.py" beforeDir="false" afterPath="$PROJECT_DIR$/week1/day3/classes&amp;OOPbasics.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day3/task1.py" beforeDir="false" afterPath="$PROJECT_DIR$/week1/day3/task1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day3/task2.py" beforeDir="false" afterPath="$PROJECT_DIR$/week1/day3/task2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,36 +46,49 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.basics.executor&quot;: &quot;Run&quot;,
-    &quot;Python.classes&amp;OOPbasics.executor&quot;: &quot;Run&quot;,
-    &quot;Python.exercise.executor&quot;: &quot;Run&quot;,
-    &quot;Python.hello_ml.executor&quot;: &quot;Run&quot;,
-    &quot;Python.loops&amp;conditions.executor&quot;: &quot;Run&quot;,
-    &quot;Python.task1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.task2.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/User/Desktop/ml_journey&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.api.executor": "Run",
+    "Python.basics.executor": "Run",
+    "Python.classes&OOPbasics.executor": "Run",
+    "Python.exercise.executor": "Run",
+    "Python.grade_tracker.executor": "Run",
+    "Python.hello_ml.executor": "Run",
+    "Python.loops&conditions.executor": "Run",
+    "Python.task1.executor": "Run",
+    "Python.task2.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/User/Desktop/ml_journey",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Desktop\ml_journey\week1\Student Grade Tracker" />
+      <recent name="C:\Users\User\Desktop\ml_journey\week1\Student Grade Tracker\data" />
+      <recent name="C:\Users\User\Desktop\ml_journey\week1" />
       <recent name="C:\Users\User\Desktop\ml_journey\day1" />
     </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="pip install -r requirements.txt" />
+    </option>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-PY-243.22562.220" />
-        <option value="bundled-python-sdk-0fc6c617c4bd-9a18a617cbe4-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.22562.220" />
+        <option value="bundled-js-predefined-d6986cc7102b-b598e85cdad2-JavaScript-PY-252.25557.35" />
+        <option value="bundled-python-sdk-cfca122e0627-7b97d883f26b-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-252.25557.35" />
       </set>
     </attachedChunks>
   </component>
@@ -81,6 +101,10 @@
       <option name="presentableId" value="Default" />
       <updated>1755104847584</updated>
       <workItem from="1755104848925" duration="13744000" />
+      <workItem from="1755273315588" duration="880000" />
+      <workItem from="1755274950114" duration="2148000" />
+      <workItem from="1755282980078" duration="707000" />
+      <workItem from="1755346029851" duration="1689000" />
     </task>
     <servers />
   </component>
@@ -89,11 +113,13 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ml_journey$loops_conditions.coverage" NAME="loops&amp;conditions Coverage Results" MODIFIED="1755203904215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day2" />
+    <SUITE FILE_PATH="coverage/ml_journey$basics.coverage" NAME="basics Coverage Results" MODIFIED="1755108499941" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ml_journey$task1.coverage" NAME="task1 Coverage Results" MODIFIED="1755263960215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day3" />
     <SUITE FILE_PATH="coverage/ml_journey$hello_ml.coverage" NAME="hello_ml Coverage Results" MODIFIED="1755104961114" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ml_journey$exercise.coverage" NAME="exercise Coverage Results" MODIFIED="1755109496292" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day1" />
-    <SUITE FILE_PATH="coverage/ml_journey$task2.coverage" NAME="task2 Coverage Results" MODIFIED="1755263343741" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day3" />
     <SUITE FILE_PATH="coverage/ml_journey$classes_OOPbasics.coverage" NAME="classes&amp;OOPbasics Coverage Results" MODIFIED="1755262839900" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day3" />
-    <SUITE FILE_PATH="coverage/ml_journey$basics.coverage" NAME="basics Coverage Results" MODIFIED="1755108499941" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/ml_journey$task1.coverage" NAME="task1 Coverage Results" MODIFIED="1755263388817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day3" />
+    <SUITE FILE_PATH="coverage/ml_journey$task2.coverage" NAME="task2 Coverage Results" MODIFIED="1755346119376" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week1/day3" />
+    <SUITE FILE_PATH="coverage/ml_journey$api.coverage" NAME="api Coverage Results" MODIFIED="1755273877823" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/AppData/Local/Programs/Python/Python312/Lib/site-packages/pandas/core" />
+    <SUITE FILE_PATH="coverage/ml_journey$grade_tracker.coverage" NAME="grade_tracker Coverage Results" MODIFIED="1755347278824" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week1/project" />
   </component>
 </project>
