@@ -5,12 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce53d1cf-12c0-474f-9c31-08c5d7c2f16a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/week2/day1/sample.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week2/day1/task1/char_frequency.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week2/day1/task1/sample.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week2/day1/word_frequency.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/ml_journey.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week2/day6/list_comprehension.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week2/day6/task1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week2/day6/task2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week2/day1/sample.txt" beforeDir="false" afterPath="$PROJECT_DIR$/week2/day5/sample.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week2/day1/task1/char_frequency.py" beforeDir="false" afterPath="$PROJECT_DIR$/week2/day5/task1/char_frequency.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week2/day1/task1/sample.txt" beforeDir="false" afterPath="$PROJECT_DIR$/week2/day5/task1/sample.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week2/day1/word_frequency.py" beforeDir="false" afterPath="$PROJECT_DIR$/week2/day5/word_frequency.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +50,7 @@
     "Python.exercise.executor": "Run",
     "Python.grade_tracker.executor": "Debug",
     "Python.hello_ml.executor": "Run",
+    "Python.list_comprehension.executor": "Run",
     "Python.loops&conditions.executor": "Run",
     "Python.task1.executor": "Run",
     "Python.task2.executor": "Run",
@@ -54,6 +58,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "C:/Users/User/Desktop/ml_journey",
     "node.js.detected.package.eslint": "true",
@@ -99,6 +104,7 @@
       <workItem from="1755274950114" duration="2148000" />
       <workItem from="1755282980078" duration="707000" />
       <workItem from="1755346029851" duration="7026000" />
+      <workItem from="1755446531796" duration="6659000" />
     </task>
     <servers />
   </component>
@@ -108,11 +114,12 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ml_journey$loops_conditions.coverage" NAME="loops&amp;conditions Coverage Results" MODIFIED="1755203904215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day2" />
     <SUITE FILE_PATH="coverage/ml_journey$basics.coverage" NAME="basics Coverage Results" MODIFIED="1755108499941" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/ml_journey$task1.coverage" NAME="task1 Coverage Results" MODIFIED="1755263960215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day3" />
+    <SUITE FILE_PATH="coverage/ml_journey$classes_OOPbasics.coverage" NAME="classes&amp;OOPbasics Coverage Results" MODIFIED="1755262839900" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day3" />
+    <SUITE FILE_PATH="coverage/ml_journey$list_comprehension.coverage" NAME="list_comprehension Coverage Results" MODIFIED="1755449989451" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week2/day6" />
+    <SUITE FILE_PATH="coverage/ml_journey$task1.coverage" NAME="task1 Coverage Results" MODIFIED="1755452614803" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week2/day6" />
     <SUITE FILE_PATH="coverage/ml_journey$hello_ml.coverage" NAME="hello_ml Coverage Results" MODIFIED="1755104961114" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ml_journey$exercise.coverage" NAME="exercise Coverage Results" MODIFIED="1755109496292" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day1" />
-    <SUITE FILE_PATH="coverage/ml_journey$classes_OOPbasics.coverage" NAME="classes&amp;OOPbasics Coverage Results" MODIFIED="1755262839900" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day3" />
-    <SUITE FILE_PATH="coverage/ml_journey$task2.coverage" NAME="task2 Coverage Results" MODIFIED="1755346119376" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week1/day3" />
+    <SUITE FILE_PATH="coverage/ml_journey$task2.coverage" NAME="task2 Coverage Results" MODIFIED="1755460599657" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week2/day6" />
     <SUITE FILE_PATH="coverage/ml_journey$word_frequency.coverage" NAME="word_frequency Coverage Results" MODIFIED="1755354452605" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week2/day1" />
     <SUITE FILE_PATH="coverage/ml_journey$char_frequency.coverage" NAME="char_frequency Coverage Results" MODIFIED="1755355917699" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week2/day1/task1" />
     <SUITE FILE_PATH="coverage/ml_journey$api.coverage" NAME="api Coverage Results" MODIFIED="1755273877823" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/AppData/Local/Programs/Python/Python312/Lib/site-packages/pandas/core" />
